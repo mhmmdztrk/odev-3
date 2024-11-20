@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBU</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Barlow:wght@100&family=DM+Sans&family=Marhey&family=Roboto+Condensed:wght@300&family=Rubik+Distressed&display=swap"
+    rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+
+<style>
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/resim.jpg');
+
+
+    }
+
+    .left {
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 120px;
+    }
+
+    .left div {
+
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(85, 68, 68);
+    }
+
+    .container {
+
+        margin: 100px 0px 0px 0px;
+
+        border-radius: 28px;
+        width: 35%;
+        text-align: center;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 7px;
+        border: 2px solid black;
+        margin: 4px auto;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 400px;
+        margin: 8px auto;
+    }
+
+
+    .container2 {
+        margin: 100px 0px 0px 4px;
+    }
+
+    .container3 {
+        margin: -40px 0px 0px 0px;
+        padding: 75px;
+        border-radius: 28px;
+        width: 35%;
+        text-align: center;
+    }
+
+    .container4 {
+        margin: 10px 0px 0px 0px;
+
+        border-radius: 28px;
+        width: 35%;
+        text-align: center;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    p {
+        font-family: "Doto", sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .container li {
+        list-style-type: none;
+    }
+
+    .container li a {
+        text-decoration: none;
+        color: white;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/Karabük_Üniversitesi_logosu.png" alt="">
+
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Duyurular</a></li>
+                <li><a href="#">İletişim </a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Bize Ulaşın</button>
+            <button class="btn">Yardım</button>
+        </div>
+
+    </header>
+
+    <div class="wrapper">
+        <div class="container">
+            <li class="item"><a href="./projeler.html">PROJELER</a></li>
+            <li class="item"><a href="./dersNotları.html">DERS NOTLARI</a></li>
+            <li class="item"><a href="./sonuclar.html">SONUCLAR</a></li>
+
+        </div>
+
+        <div class="container3">
+            <p style="width: 400px;">BİR ÜNİVERSİTEDEN DAHA FAZLASI</p>
+
+        </div>
+
+        <div class="container2">
+            <img src="img/kn.jpg" alt="" width="250px">
+        </div>
+
+
+
+
+    </div>
+
+    <div class="wrapper">
+        <div class="container4">
+
+            <form action="noneaction.php">
+                <div class="form-group">
+                    <input type="text" placeholder="Kullanıcı Adı">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Şifre">
+                </div>
+
+
+                <button class="btn">submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
